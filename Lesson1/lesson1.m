@@ -109,6 +109,6 @@ end
 clear;
 t = -10:0.1:10;
 y = rect(t);
-plot(y,'g');
+plot(t, y, 'g');
 
 % da completare aggiungendo tri.m e gradino.m
