@@ -8,7 +8,7 @@ function x = gradino( t )
     x = zeros(size(t));
     for i = 1:length(t)
         if t(i) > 1
-            x(i) = 1;
+            x(i) = 1; 
         elseif t(i) < 1
             x(i) = 0;
 		else

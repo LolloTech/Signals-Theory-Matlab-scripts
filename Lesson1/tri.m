@@ -15,3 +15,4 @@ function x = tri( t )
         end
     end
 end
+ 
